@@ -1,0 +1,10 @@
+2016-07-13 20:27:03,102 INFO  - Starting HiveMQ Server
+2016-07-13 20:27:03,108 INFO  - HiveMQ version: 3.1.5
+2016-07-13 20:27:03,109 INFO  - HiveMQ home directory: /Users/sushantpatil/Downloads/hivemq-3.1.5
+2016-07-13 20:27:06,609 INFO  - Loaded Plugin HiveMQ JMX Metrics Reporting Plugin - v3.0.0
+2016-07-13 20:27:06,609 INFO  - Loaded Plugin HiveMQ Sys Topic Plugin - v3.0.0
+2016-07-13 20:27:06,629 INFO  - JMX Metrics Reporting started.
+2016-07-13 20:27:06,635 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2016-07-13 20:27:06,661 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2016-07-13 20:27:06,662 INFO  - Started HiveMQ in 3557ms
+2016-07-13 21:44:31,067 INFO  - No valid license file found. Using evaluation license, restricted to 25 connections.

@@ -1,0 +1,89 @@
+2016-07-14 18:13:17,653 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2016-07-14 18:13:30,351 INFO  - Starting HiveMQ Server
+2016-07-14 18:13:30,359 INFO  - HiveMQ version: 3.1.5
+2016-07-14 18:13:30,361 INFO  - HiveMQ home directory: /Users/sushantpatil/Downloads/hivemq-3.1.5
+2016-07-14 18:13:34,073 INFO  - Loaded Plugin HiveMQ JMX Metrics Reporting Plugin - v3.0.0
+2016-07-14 18:13:34,074 INFO  - Loaded Plugin HiveMQ Sys Topic Plugin - v3.0.0
+2016-07-14 18:13:34,094 INFO  - JMX Metrics Reporting started.
+2016-07-14 18:13:34,101 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2016-07-14 18:13:34,127 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2016-07-14 18:13:34,128 INFO  - Started HiveMQ in 3773ms
+2016-07-14 18:14:04,266 WARN  - Could not check for updates
+2016-07-19 14:30:37,271 INFO  - Starting HiveMQ Server
+2016-07-19 14:30:37,283 INFO  - HiveMQ version: 3.1.5
+2016-07-19 14:30:37,287 INFO  - HiveMQ home directory: /vagrant
+2016-07-19 14:30:38,336 INFO  - Created user preferences directory.
+2016-07-19 14:30:43,726 INFO  - Loaded Plugin HiveMQ JMX Metrics Reporting Plugin - v3.0.0
+2016-07-19 14:30:43,727 INFO  - Loaded Plugin HiveMQ Sys Topic Plugin - v3.0.0
+2016-07-19 14:30:43,757 INFO  - JMX Metrics Reporting started.
+2016-07-19 14:30:43,770 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2016-07-19 14:30:43,804 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2016-07-19 14:30:43,806 INFO  - Started HiveMQ in 6528ms
+2016-07-19 14:31:02,501 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2016-07-19 14:31:12,962 INFO  - Starting HiveMQ Server
+2016-07-19 14:31:12,974 INFO  - HiveMQ version: 3.1.5
+2016-07-19 14:31:12,977 INFO  - HiveMQ home directory: /vagrant
+2016-07-19 14:31:19,242 INFO  - Loaded Plugin HiveMQ JMX Metrics Reporting Plugin - v3.0.0
+2016-07-19 14:31:19,243 INFO  - Loaded Plugin HiveMQ Sys Topic Plugin - v3.0.0
+2016-07-19 14:31:19,269 INFO  - JMX Metrics Reporting started.
+2016-07-19 14:31:19,281 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2016-07-19 14:31:19,313 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2016-07-19 14:31:19,315 INFO  - Started HiveMQ in 6345ms
+2016-07-19 14:31:51,837 INFO  - Starting HiveMQ Server
+2016-07-19 14:31:51,851 INFO  - HiveMQ version: 3.1.5
+2016-07-19 14:31:51,853 INFO  - HiveMQ home directory: /vagrant
+2016-07-19 14:31:55,003 ERROR - An error occurred while opening the Xodus Outgoing Messages Local persistence. Is another HiveMQ instance running?
+2016-07-19 14:31:55,011 ERROR - An unrecoverable Exception occurred. Exiting HiveMQ
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at aM.d.afterInjection(Unknown Source)
+	at com.google.inject.internal.MembersInjectorImpl.notifyListeners(Unknown Source)
+	at com.google.inject.internal.ConstructorInjector.provision(Unknown Source)
+	at com.google.inject.internal.ConstructorInjector.construct(Unknown Source)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(Unknown Source)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(Unknown Source)
+	at com.google.inject.internal.InjectorImpl.callInContext(Unknown Source)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(Unknown Source)
+	at com.google.inject.internal.SingletonScope$1.get(Unknown Source)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(Unknown Source)
+	at com.google.inject.internal.InjectorImpl$2$1.call(Unknown Source)
+	at com.google.inject.internal.InjectorImpl.callInContext(Unknown Source)
+	at com.google.inject.internal.InjectorImpl$2.get(Unknown Source)
+	at bF.f.a(Unknown Source)
+	at bF.f.get(Unknown Source)
+	at com.google.inject.internal.ProviderInternalFactory.provision(Unknown Source)
+	at com.google.inject.internal.BoundProviderFactory.provision(Unknown Source)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(Unknown Source)
+	at com.google.inject.internal.BoundProviderFactory.get(Unknown Source)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(Unknown Source)
+	at com.google.inject.internal.InjectorImpl.callInContext(Unknown Source)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(Unknown Source)
+	at com.google.inject.internal.SingletonScope$1.get(Unknown Source)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(Unknown Source)
+	at com.google.inject.internal.InternalInjectorCreator$1.call(Unknown Source)
+	at com.google.inject.internal.InternalInjectorCreator$1.call(Unknown Source)
+	at com.google.inject.internal.InjectorImpl.callInContext(Unknown Source)
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(Unknown Source)
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(Unknown Source)
+	at com.google.inject.internal.InternalInjectorCreator.build(Unknown Source)
+	at com.google.inject.Guice.createInjector(Unknown Source)
+	at c.a.a(Unknown Source)
+	at com.hivemq.HiveMQServer.main(Unknown Source)
+Caused by: com.hivemq.spi.exceptions.UnrecoverableException: null
+	at bK.z.a(Unknown Source)
+	... 37 common frames omitted
+2016-07-19 14:31:55,014 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2016-07-19 14:32:23,237 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
+2016-07-19 12:22:52,414 INFO  - Starting HiveMQ Server
+2016-07-19 12:22:52,421 INFO  - HiveMQ version: 3.1.5
+2016-07-19 12:22:52,422 INFO  - HiveMQ home directory: /Users/sushantpatil/Projects/Vagrant_IoT/Hive_MQTT
+2016-07-19 12:22:55,762 INFO  - Loaded Plugin HiveMQ JMX Metrics Reporting Plugin - v3.0.0
+2016-07-19 12:22:55,763 INFO  - Loaded Plugin HiveMQ Sys Topic Plugin - v3.0.0
+2016-07-19 12:22:55,782 INFO  - JMX Metrics Reporting started.
+2016-07-19 12:22:55,788 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2016-07-19 12:22:55,822 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883
+2016-07-19 12:22:55,823 INFO  - Started HiveMQ in 3405ms
+2016-07-19 12:23:00,060 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
